@@ -43,7 +43,7 @@ public class App {
             }
 
             if (cmd.hasOption("c")) {
-                System.out.println("Option c with arg: " + cmd.getOptionValue("o"));
+                System.out.println("Option c with arg: " + cmd.getOptionValue("c"));
             }
         }
         catch (ParseException ex) {
